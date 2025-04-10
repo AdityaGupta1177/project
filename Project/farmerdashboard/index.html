@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <button>Farmer</button>
+        <button>New Contract</button>
+        <button>Support for helpline</button>
+        <button onclick="toggleMarketStatus()">Market Status</button>
+        <button>Log out</button>
+        <button><< Back to Home</button>
+    </div>
+    <div class="dashboard">
+        <div class="main" >
+            <h2>Farmer Dashboard</h2>
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>New Wins</h3>
+                <p>230</p>
+                <small>↑ 25%</small>
+            </div>
+            <div class="stat-box">
+                <h3>Trial-Win Rate</h3>
+                <p>9.86%</p>
+                <small>↑ 25%</small>
+            </div>
+            <div class="stat-box">
+                <h3>New MRR</h3>
+                <p>$25,690</p>
+                <small>↑ 8.7%</small>
+            </div>
+            <div class="stat-box">
+                <h3>Page Views</h3>
+                <p>Organic Search</p>
+            </div>
+        </div>
+        <div class="charts-container">
+            <div class="chart">MRR Stats by Country (Placeholder)</div>
+            <div class="chart">MRR (Placeholder)</div>
+        </div>
+        </div>
+        
+        <div id="market-status" style="display: none;">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search Market Status..." onkeyup="searchCards()">
+            </div>
+            <div class="cards-container" id="cardsContainer">
+                <div class="card">Wheat Market</div>
+                <div class="card">Rice Market</div>
+                <div class="card">Corn Market</div>
+                <div class="card">Soybean Market</div>
+                <div class="card">Sugar Market</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

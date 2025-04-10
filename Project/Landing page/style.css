@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    font-family: 'poppins', sans-serif;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding-left: 100px;
+}
+.button-family{
+    display: flex;
+    align-items: center;
+}
+.btn1{
+    height: 25px;
+    width: 80px;
+    background: rgb(0, 45, 66);
+    color: white;
+    border-radius: 33px;
+    border: none;
+    position: relative;
+    padding-left: 10px;
+}
+.button-family img{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    transform: translateX(-120%);
+}
+#img2{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    left: -0.2rem;
+}
+.hero-section{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(farmer1.jpg);
+    background-size: cover;
+    max-height: 546px;
+    background-position: center;
+    z-index: -100;
+}
+.hero-section h2{
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-size: 3rem;
+    top: 100px;
+    left: 80px;
+    font-weight: 700;
+}
+
+.hero-section p{
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    position: absolute;
+    font-size: 0.89rem;
+    top: 250px;
+    left: 85px;
+    font-weight: 400;
+}
+
+.btn2{
+    position: absolute;
+    height: 35px;
+    width: 110px;
+    background: #fff;
+    color: rgb(248, 96, 17);
+    top: 360px;
+    left: 85px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.main-section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.main-section-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px;
+    gap: 25px;
+}
+.main-section h2{
+    font-family: 'poppins', sans-serif;
+    font-size: 2.6rem;
+}
+
+.box{
+    height: 8px;
+    width: 25px;
+    background: rgb(0, 45, 66);
+    border: none;
+    border-radius: 5px;
+}
+
+.cards{
+    overflow-x: auto;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 20px;
+    width: 91vw;
+    scroll-behavior: smooth;
+    gap: 80px;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+  }
+.card{
+    height: 280px;
+    width: 290px;
+    background: rgb(0, 45, 66);
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    flex: 0 0 auto;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+#card-p{
+    font-size: 1.3rem;
+}
+#main-p{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 15px;
+    padding-top: 20px;
+    height: 177px;
+}
+.card-button{
+    background: rgb(0, 45, 66);
+    border: none;
+    color: #fff;
+}
+.card-button img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 183px;
+    bottom: 38px;
+}
+#img1{
+    height: 50px;
+    position: absolute;
+    z-index: 8;
+    left: 40px;
+    top: 300px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+#mg2{
+    height: 50px;
+    position: absolute;
+    z-index: 8;
+    right: 40px;
+    top: 300px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+/* .login_box{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 600px;
+    background: #fff;
+    border: 3px, solid black;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+}
+h2{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+.login_box_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+.cards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.card1{
+    height: 300px;
+    width: 350px;
+    margin-top: 8%;
+    gap: 10px;
+    background-image: url("ChatGPT\ Image\ Apr\ 3\,\ 2025\,\ 11_10_19\ PM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+
+.card2{
+    background-image: url("ChatGPT\ Image\ Apr\ 3\,\ 2025\,\ 11_11_39\ PM.png");
+    height: 300px;
+    width: 350px;
+    margin-top: 8%;
+    gap: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+.cards.selected1{
+    border: 5px solid black; 
+}
+
+
+h2{
+    color: #000000da;
+    font-family: 'poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 290px;
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    right: 3rem;
+    bottom: 2.9rem;
+    color: rgb(248, 96, 17);
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    padding: 8px;
+    height: 37px;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn1{
+    position: absolute;
+    right: 7.5rem;
+    bottom: 2.9rem;
+    color: rgb(248, 96, 17);
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    padding: 8px;
+    height: 37px;
+    width: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.farmer_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.farmer_options_cards{
+    background: #fff;
+    height: 300px;
+    width: 280px;
+    margin-top: 8%;
+    gap: 10px;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.farmer_options_cards.selected {
+    border: 3px solid black; 
+}
+.options_cards_heading{
+    color: #2c3e50;
+    padding-top: 15px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.74rem;
+    font-weight: 900;
+    height: 0px;
+    text-align: center;
+    padding: 9x;
+}
+
+.options_cards_para{
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 100px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+}
+
+.farmer_options_cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buyer_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.buyer_options_cards{
+    background: #fff;
+    height: 300px;
+    width: 280px;
+    margin-top: 8%;
+    gap: 10px;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+.buyer_options_cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buyer_options_cards.selected2 {
+    border: 3px solid black; 
+}
+*/

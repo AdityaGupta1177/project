@@ -1,0 +1,360 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.login_box{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    width: 80vw;
+    height: 600px;
+    background: #fff;
+    border: 3px, solid black;
+    border-radius: 5px;
+    position: relative;
+}
+h2{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+.login_box_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+.cards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.card1{
+    height: 300px;
+    width: 350px;
+    margin-top: 8%;
+    gap: 10px;
+    background-image: url("ChatGPT\ Image\ Apr\ 3\,\ 2025\,\ 11_10_19\ PM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+
+.card2{
+    background-image: url("ChatGPT\ Image\ Apr\ 3\,\ 2025\,\ 11_11_39\ PM.png");
+    height: 300px;
+    width: 350px;
+    margin-top: 8%;
+    gap: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+.cards.selected1{
+    border: 5px solid black; 
+}
+
+
+h2{
+    color: #000000da;
+    font-family: 'poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 290px;
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    right: 3rem;
+    bottom: 2.9rem;
+    color: rgb(248, 96, 17);
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    padding: 8px;
+    height: 37px;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn1{
+    position: absolute;
+    right: 7.5rem;
+    bottom: 2.9rem;
+    color: rgb(248, 96, 17);
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    padding: 8px;
+    height: 37px;
+    width: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.farmer_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.farmer_options_cards{
+    background: #fff;
+    height: 300px;
+    width: 280px;
+    margin-top: 8%;
+    gap: 10px;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.farmer_options_cards.selected {
+    border: 3px solid black; 
+}
+.options_cards_heading{
+    color: #2c3e50;
+    padding-top: 15px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.74rem;
+    font-weight: 900;
+    height: 0px;
+    text-align: center;
+    padding: 9x;
+}
+
+.options_cards_para{
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 100px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+}
+
+.farmer_options_cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buyer_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.buyer_options_cards{
+    background: #fff;
+    height: 300px;
+    width: 280px;
+    margin-top: 8%;
+    gap: 10px;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+.buyer_options_cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buyer_options_cards.selected2 {
+    border: 3px solid black; 
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.login_box{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    width: 50vw;
+    height: 415px;
+    background: #fff;
+    border: 3px, solid black;
+    border-radius: 5px;
+    position: relative;
+}
+h2{
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+.login_box_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    
+}
+.cards:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.card1{
+    height: 200px;
+    width: 227px;
+    margin-top: 8%;
+    gap: 10px;
+    background-image: url("ChatGPT\ Image\ Apr\ 3\,\ 2025\,\ 11_10_19\ PM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+
+.card2{
+    background-image: url("ChatGPT\ Image\ Apr\ 3\,\ 2025\,\ 11_11_39\ PM.png");
+    height: 200px;
+    width: 227px;
+    margin-top: 8%;
+    gap: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+.cards.selected1{
+    border: 5px solid black; 
+}
+
+
+h2{
+    color: #000000da;
+    font-family: 'poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-top: 220px;
+    text-align: center;
+}
+.btn{
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
+    color: rgb(248, 96, 17);
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    padding: 8px;
+    height: 37px;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn1{
+    position: absolute;
+    right: 7.5rem;
+    bottom: 1rem;
+    color: rgb(248, 96, 17);
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border: none;
+    padding: 8px;
+    height: 37px;
+    width: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.farmer_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.farmer_options_cards{
+    background: #fff;
+    height: 279px;
+    width: 280px;
+    margin-top: 8%;
+    margin-left: 1%;
+    margin-right: 1%;
+    gap: 10px;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.farmer_options_cards.selected {
+    border: 3px solid black; 
+}
+.options_cards_heading{
+    color: #2c3e50;
+    padding-top: 15px;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.64rem;
+    font-weight: 900;
+    height: 0px;
+    text-align: center;
+    padding: 9x;
+}
+
+.options_cards_para{
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 80px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+}
+
+.farmer_options_cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buyer_options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+.buyer_options_cards{
+    background: #fff;
+    height: 300px;
+    width: 280px;
+    margin-top: 8%;
+    gap: 10px;
+    border: 1.5px, solid black;
+    border-radius: 5px;
+}
+.buyer_options_cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.buyer_options_cards.selected2 {
+    border: 3px solid black; 
+}
